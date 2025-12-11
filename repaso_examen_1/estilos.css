@@ -4,7 +4,7 @@ body{
     display: flex;
     flex-direction: column;
 }
-ain {
+main {
     padding: 2rem;   
     flex-grow: 1;   
 }
@@ -71,3 +71,4 @@ color: #777;
     color: #E74C3C;
     font-size: 1.25rem;
 }
+
