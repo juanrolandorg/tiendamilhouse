@@ -1,0 +1,72 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F4F4F4;
+    display: flex;
+    flex-direction: column;
+}
+main{
+    padding: 0 2rem 2rem 2rem;
+    
+}
+header{
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+}
+.cabecera-imagen{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.cabecera-imagen img{
+    width: 100px;
+    height: 100px;
+    margin-right: 15px;
+}
+footer{
+    background-color:#4CAF50;
+    color: white;
+    text-align: center;
+    font-size: 0.9rem;
+}
+main h1{
+    text-align: center;
+    width: 100%;
+}
+
+.contenedor-principal{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 10px;
+}
+.tarjeta{
+    border: solid 2px #CCC;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+    align-items: center;
+    background-color: #F9F9F9;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.tarjeta img{
+    max-width: 75%;
+    border-radius: 10px;
+}
+.tarjeta h2{
+    color: #333;
+
+}
+.descripcion-producto{
+    color: #777;
+}
+.precio{
+    font-size: 1.25rem;
+    color: #E74C3C;
+}
+.tarjeta:hover{
+  transform: scale(1.05); /* Escala al 105% */
+  /* Opcional: puedes hacer la sombra más intensa al hover */
+box-shadow: 0 12px 24px rgba(0,0,0,0.3);
+}
